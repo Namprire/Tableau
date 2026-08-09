@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="852.262594pt" height="520.466297pt" viewBox="0 0 852.262594 520.466297" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-08T22:19:10.230479</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 520.466297 
+L 852.262594 520.466297 
+L 852.262594 0 
+L -0 0 
+z
+" style="fill: #f7f5f0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 101.448 445.68 
+L 446.801846 445.68 
+L 446.801846 108.72 
+L 101.448 108.72 
+z
+" style="fill: #f7f5f0"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 101.448 445.68 
+L 101.448 108.72 
+" clip-path="url(#pf3639bb814)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="101.448" y="457.537422" transform="rotate(-0 101.448 457.537422)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 214.678769 445.68 
+L 214.678769 108.72 
+" clip-path="url(#pf3639bb814)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="214.678769" y="457.537422" transform="rotate(-0 214.678769 457.537422)">20%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 327.909538 445.68 
+L 327.909538 108.72 
+" clip-path="url(#pf3639bb814)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="327.909538" y="457.537422" transform="rotate(-0 327.909538 457.537422)">40%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 441.140308 445.68 
+L 441.140308 108.72 
+" clip-path="url(#pf3639bb814)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="441.140308" y="457.537422" transform="rotate(-0 441.140308 457.537422)">60%</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="274.124923" y="480.538281" transform="rotate(-0 274.124923 480.538281)">Share of summed exposure</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="97.948" y="415.146509" transform="rotate(-0 97.948 415.146509)">Job Zone 5</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="97.948" y="348.262825" transform="rotate(-0 97.948 348.262825)">Job Zone 4</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="97.948" y="281.379141" transform="rotate(-0 97.948 281.379141)">Job Zone 3</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="97.948" y="214.495457" transform="rotate(-0 97.948 214.495457)">Job Zone 2</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="97.948" y="147.611773" transform="rotate(-0 97.948 147.611773)">Job Zone 1</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 101.448 445.68 
+L 446.801846 445.68 
+" style="fill: none; stroke: #d7d5ce; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 101.448 430.363636 
+L 224.034336 430.363636 
+L 224.034336 391.5711 
+L 101.448 391.5711 
+z
+" clip-path="url(#pf3639bb814)" style="fill: #355c7d"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 101.448 363.479952 
+L 415.183523 363.479952 
+L 415.183523 324.687416 
+L 101.448 324.687416 
+z
+" clip-path="url(#pf3639bb814)" style="fill: #355c7d"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 101.448 296.596268 
+L 185.292612 296.596268 
+L 185.292612 257.803732 
+L 101.448 257.803732 
+z
+" clip-path="url(#pf3639bb814)" style="fill: #c7d1d9"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 101.448 229.712584 
+L 146.530904 229.712584 
+L 146.530904 190.920048 
+L 101.448 190.920048 
+z
+" clip-path="url(#pf3639bb814)" style="fill: #c7d1d9"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 101.448 162.8289 
+L 102.352472 162.8289 
+L 102.352472 124.036364 
+L 101.448 124.036364 
+z
+" clip-path="url(#pf3639bb814)" style="fill: #c7d1d9"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="231.96049" y="414.084556" transform="rotate(-0 231.96049 414.084556)">21.7%</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="423.109677" y="347.200872" transform="rotate(-0 423.109677 347.200872)">55.4%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="193.218765" y="280.317187" transform="rotate(-0 193.218765 280.317187)">14.8%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="154.457058" y="213.433503" transform="rotate(-0 154.457058 213.433503)">8.0%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="110.278626" y="146.549819" transform="rotate(-0 110.278626 146.549819)">0.2%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 600; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="101.448" y="94.72" transform="rotate(-0 101.448 94.72)">Share of all occupation exposure</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 548.906462 445.68 
+L 804.168 445.68 
+L 804.168 108.72 
+L 548.906462 108.72 
+z
+" style="fill: #f7f5f0"/>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 548.906462 430.363636 
+L 788.491896 430.363636 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 5"/>
+    <path d="M 548.906462 353.781818 
+L 758.190198 353.781818 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 5"/>
+    <path d="M 548.906462 277.2 
+L 615.570199 277.2 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 5"/>
+    <path d="M 548.906462 200.618182 
+L 587.692636 200.618182 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 5"/>
+    <path d="M 548.906462 124.036364 
+L 570.723687 124.036364 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 5"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_14">
+      <path d="M 548.906462 445.68 
+L 548.906462 108.72 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_17">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="548.906462" y="457.537422" transform="rotate(-0 548.906462 457.537422)">0×</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_16">
+      <path d="M 592.540913 445.68 
+L 592.540913 108.72 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_18">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="592.540913" y="457.537422" transform="rotate(-0 592.540913 457.537422)">2×</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_18">
+      <path d="M 636.175364 445.68 
+L 636.175364 108.72 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_19">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="636.175364" y="457.537422" transform="rotate(-0 636.175364 457.537422)">4×</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_20">
+      <path d="M 679.809815 445.68 
+L 679.809815 108.72 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_20">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="679.809815" y="457.537422" transform="rotate(-0 679.809815 457.537422)">6×</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_22">
+      <path d="M 723.444266 445.68 
+L 723.444266 108.72 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_23"/>
+     <g id="text_21">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="723.444266" y="457.537422" transform="rotate(-0 723.444266 457.537422)">8×</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_24">
+      <path d="M 767.078717 445.68 
+L 767.078717 108.72 
+" clip-path="url(#pbd0bb2ffdb)" style="fill: none; stroke: #d7d5ce; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_25"/>
+     <g id="text_22">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="767.078717" y="457.537422" transform="rotate(-0 767.078717 457.537422)">10×</text>
+     </g>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #667080" x="676.537231" y="480.538281" transform="rotate(-0 676.537231 480.538281)">Median exposure multiple</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_26"/>
+     <g id="text_24">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="545.406462" y="434.542777" transform="rotate(-0 545.406462 434.542777)">Job Zone 5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_27"/>
+     <g id="text_25">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="545.406462" y="357.960959" transform="rotate(-0 545.406462 357.960959)">Job Zone 4</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_28"/>
+     <g id="text_26">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="545.406462" y="281.379141" transform="rotate(-0 545.406462 281.379141)">Job Zone 3</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_29"/>
+     <g id="text_27">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="545.406462" y="204.797322" transform="rotate(-0 545.406462 204.797322)">Job Zone 2</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_30"/>
+     <g id="text_28">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #162335" x="545.406462" y="128.215504" transform="rotate(-0 545.406462 128.215504)">Job Zone 1</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 548.906462 445.68 
+L 804.168 445.68 
+" style="fill: none; stroke: #d7d5ce; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_320ac81fce" d="M 0 5.59017 
+C 1.48253 5.59017 2.90454 5.001154 3.952847 3.952847 
+C 5.001154 2.90454 5.59017 1.48253 5.59017 -0 
+C 5.59017 -1.48253 5.001154 -2.90454 3.952847 -3.952847 
+C 2.90454 -5.001154 1.48253 -5.59017 0 -5.59017 
+C -1.48253 -5.59017 -2.90454 -5.001154 -3.952847 -3.952847 
+C -5.001154 -2.90454 -5.59017 -1.48253 -5.59017 0 
+C -5.59017 1.48253 -5.001154 2.90454 -3.952847 3.952847 
+C -2.90454 5.001154 -1.48253 5.59017 0 5.59017 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pbd0bb2ffdb)">
+     <use xlink:href="#C0_0_320ac81fce" x="788.491896" y="430.363636" style="fill: #c89b3c; stroke: #c89b3c"/>
+    </g>
+    <g clip-path="url(#pbd0bb2ffdb)">
+     <use xlink:href="#C0_0_320ac81fce" x="758.190198" y="353.781818" style="fill: #c89b3c; stroke: #c89b3c"/>
+    </g>
+    <g clip-path="url(#pbd0bb2ffdb)">
+     <use xlink:href="#C0_0_320ac81fce" x="615.570199" y="277.2" style="fill: #355c7d; stroke: #355c7d"/>
+    </g>
+    <g clip-path="url(#pbd0bb2ffdb)">
+     <use xlink:href="#C0_0_320ac81fce" x="587.692636" y="200.618182" style="fill: #355c7d; stroke: #355c7d"/>
+    </g>
+    <g clip-path="url(#pbd0bb2ffdb)">
+     <use xlink:href="#C0_0_320ac81fce" x="570.723687" y="124.036364" style="fill: #355c7d; stroke: #355c7d"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="794.600719" y="433.480824" transform="rotate(-0 794.600719 433.480824)">11.0×</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="764.299021" y="356.899006" transform="rotate(-0 764.299021 356.899006)">9.6×</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="621.679023" y="280.317187" transform="rotate(-0 621.679023 280.317187)">3.1×</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="593.801459" y="203.735369" transform="rotate(-0 593.801459 203.735369)">1.8×</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 600; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="576.83251" y="127.153551" transform="rotate(-0 576.83251 127.153551)">1.0×</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 600; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="548.906462" y="94.72" transform="rotate(-0 548.906462 94.72)">Typical occupation vs. Job Zone 1</text>
+   </g>
+  </g>
+  <g id="text_35">
+   <text style="font-weight: 600; font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #162335" x="18" y="34.716562" transform="rotate(-0 18 34.716562)">AI exposure is a high-skill story: Zones 4–5 account for 77%</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #667080" x="18" y="55.907081" transform="rotate(-0 18 55.907081)">Zone 4 dominates total observed exposure, while the typical Zone 5 occupation is slightly more exposed.</text>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 9.8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #667080" x="18" y="500.112" transform="rotate(-0 18 500.112)">Core insight: higher-complexity work is both more typically exposed and responsible for most observed AI use; Zone 4 leads because of computing occupations.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf3639bb814">
+   <rect x="101.448" y="108.72" width="345.353846" height="336.96"/>
+  </clipPath>
+  <clipPath id="pbd0bb2ffdb">
+   <rect x="548.906462" y="108.72" width="255.261538" height="336.96"/>
+  </clipPath>
+ </defs>
+</svg>

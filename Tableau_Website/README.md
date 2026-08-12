@@ -1,8 +1,13 @@
-# Who Does the Work?
+# Who Does the Work? — Website
 
-An original Svelte scrollytelling story about how generative AI redistributes workplace tasks
-between automation and augmentation. The interaction architecture uses the supplied Yard Sale-style
-template, while the reporting, visual identity, illustrations, and data story are original.
+This directory contains the Svelte application for the **Who Does the Work?** interactive data
+story.
+
+![Animated website tour](docs/media/website-tour.gif)
+
+The complete project documentation—including findings, methodology, screenshots, architecture,
+limitations, data regeneration, and the media workflow—is in the
+[`repository README`](../README.md).
 
 ## Run locally
 
@@ -11,7 +16,7 @@ npm install
 npm run dev
 ```
 
-Open <http://localhost:5173>.
+Open [http://localhost:5173](http://localhost:5173).
 
 ## Validate and build
 
@@ -25,26 +30,9 @@ The production build is written to `dist/`.
 
 ## Refresh the explorer data
 
-The browser-ready occupation profiles are generated from the supplied Tableau workbook in the
-adjacent `figures` directory:
-
 ```bash
 npm run data
 ```
 
-This writes `public/data/occupation-profiles.json`.
-
-## Interaction architecture
-
-- Each scrolly component keeps an `activeStep` selected by `IntersectionObserver`.
-- The visual scene uses native `position: sticky` while narrative cards move over it.
-- Scene layers stay mounted and switch between discrete state classes.
-- CSS transitions interpolate transforms, opacity, color, and width between those states.
-- JavaScript handles step detection, quiz state, and explorer data selection—not per-pixel scrolling.
-- Reduced-motion preferences remove long transitions while retaining every story state.
-
-## Experimental handoff simulation
-
-The simulation is intentionally isolated behind `showHandoffSimulation` near the top of
-`src/App.svelte`. Change that constant to `false` to revert the page to its previous narrative flow
-without deleting the component or its work.
+This rebuilds `public/data/occupation-profiles.json` from the packaged Tableau workbook in the
+adjacent `figures/` directory.

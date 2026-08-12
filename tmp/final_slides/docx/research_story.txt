@@ -1,0 +1,123 @@
+AI at Work
+A Four-Question Research Story on Exposure, Automation, Augmentation, and the Reorganization of Work
+Unified analytical file: analysis_dataset.csv
+Central question
+How is generative AI reorganizing the division of work between humans and machines?
+The framework moves from describing where AI appears, to identifying what role AI plays, to opening the job black box at the task level, and finally to examining the occupational conditions under which AI acts more like an executor or a copilot.
+
+1. The Central Research Story
+The project is not primarily a story about which occupations have the highest AI exposure. It is a story about how the presence of generative AI changes the division of labor inside work. The key conceptual distinction is that AI exposure and AI automation are not the same thing. Exposure tells us how much AI is used; automation and augmentation tell us what AI is doing when it is used.
+High AI exposure does not necessarily imply high automation.
+The research narrative therefore progresses in four stages. First, it locates AI in the workplace. Second, it identifies whether AI behaves more like a task executor or a human complement. Third, it examines whether that role is uniform across an occupation or varies across the tasks that make up the occupation. Fourth, it asks whether the emerging automation-augmentation balance is systematically related to occupational skill requirements, pay, and exposure.
+Stage
+Narrative function
+Research question
+Intended insight
+Stage 1
+Locate AI
+Where is generative AI entering the workplace?
+AI exposure is uneven across occupations and tasks.
+Stage 2
+Identify AI's role
+When AI is used, is it doing the work or helping the worker?
+Exposure is not equivalent to automation.
+Stage 3
+Open the job black box
+Does AI reshape different tasks within the same job in different ways?
+Automation and augmentation can coexist within one occupation.
+Stage 4
+Explain occupational variation
+Under what occupational conditions is AI more likely to act as a worker versus a copilot?
+The division of labor varies with the structure of work.
+
+Exposure -> Role -> Job Reconfiguration -> Occupational Context
+2. Four Main Research Questions
+RQ1. Where is generative AI entering the workplace?
+Narrative purpose. Establish the empirical landscape before making any claim about automation. The first step is to identify where observed workplace AI use is concentrated across occupations and tasks, and what kinds of work are most exposed.
+RQ1a. Which occupations and tasks account for the greatest shares of observed AI use?
+Occupation level: soc_code, job_name, occupation_ai_exposure_pct.
+Task level: task_id, task_name, task_short_summary, task_percentage_all, task_cluster_name.
+Use rankings and cumulative exposure summaries as descriptive evidence, not as separate research questions.
+RQ1b. What kinds of workplace tasks are most exposed to generative AI?
+Key variables: task_type, task_cluster_name, task_percentage_all, num_jobs_sharing_task, job_family.
+Compare Core versus Supplemental tasks, broad task clusters, and widely shared versus occupation-specific tasks.
+RQ1 transition: Knowing where AI appears still does not tell us whether AI is replacing human task execution or supporting human work. This motivates RQ2.
+RQ2. When AI is used at work, is it doing the work or helping the worker?
+Narrative purpose. Separate AI presence from AI role. This stage asks whether observed workplace AI use is primarily automation-oriented or augmentation-oriented, and then decomposes that balance into specific interaction modes.
+RQ2a. What is the overall balance between automation and augmentation?
+Analysis level: occupation-task.
+Key variables: task_automation_exposure_pct, task_augmentation_exposure_pct, q2_classified_exposure_pct.
+Interpretation: Automation captures AI acting primarily as an executor; augmentation captures AI working with or supporting the human user.
+RQ2b. Which human-AI interaction modes account for this balance?
+Automation modes: directive and feedback_loop.
+Augmentation modes: task_iteration, validation, and learning.
+Use exposure-weighted mode shares to explain the composition behind the overall automation-augmentation balance.
+RQ2 transition: Even if an occupation looks automation-oriented or augmentation-oriented on average, that average may hide substantial variation across the tasks that make up the job. This motivates RQ3.
+RQ3. Does AI transform whole jobs uniformly, or does it reshape different tasks within the same job in different ways?
+Narrative purpose. Move from occupation-level averages to the internal task structure of jobs. The central idea is that the unit of transformation may be the task rather than the occupation as a whole.
+RQ3a. How much does the automation-augmentation orientation vary across tasks within the same occupation?
+Key variables: job_name, soc_code, task_name, task_short_summary, task_percentage_job, task_automation_share, task_augmentation_share, task_ai_role_balance.
+Use occupation drill-downs to show that some tasks can be automation-oriented while other tasks in the same occupation are augmentation-oriented.
+RQ3b. Are particular types of tasks systematically more automation- or augmentation-oriented?
+Key variables: task_cluster_name, task_type, task_automation_exposure_pct, task_augmentation_exposure_pct, task_ai_role_balance.
+Compare task clusters and Core versus Supplemental tasks to test whether interaction orientation follows the nature of the task.
+RQ3 transition: If automation and augmentation vary within jobs, the final question is what broader occupational conditions are associated with these different patterns. This motivates RQ4.
+RQ4. Under what occupational conditions is AI more likely to act as a worker versus a copilot?
+Narrative purpose. Place task-level reconfiguration in occupational context. This stage examines how occupational preparation, pay, and AI exposure are associated with whether AI is used more as an executor or as a complement to human work.
+RQ4a. How does the automation-augmentation balance vary with occupational preparation and pay?
+Key variables: job_zone, median_salary, salary_quartile, occupation_automation_orientation, occupation_augmentation_orientation, occupation_ai_role_balance, occupation_ai_exposure_pct.
+Analyze Job Zone, salary, and Job Zone x salary jointly; treat the patterns as descriptive associations rather than causal effects.
+RQ4b. Do occupations with similar AI exposure nevertheless differ in whether AI acts primarily as an executor or a complement to human work?
+Key variables: occupation_ai_exposure_pct, occupation_automation_orientation, occupation_augmentation_orientation, occupation_ai_role_balance, job_zone, median_salary, job_family.
+Use an Exposure x AI Role Balance framework to show that how much AI is used does not determine how AI is used.
+RQ4 payoff: The project ends by shifting the debate from whether AI is present to how work is divided between humans and machines under different occupational conditions.
+3. The Story These Questions Tell
+Act I - AI enters work unevenly
+The story begins with uneven adoption. Some occupations and tasks account for much larger shares of observed AI use than others. This establishes that generative AI is not diffusing uniformly across the workplace. More importantly, it reveals that AI enters work through concrete tasks rather than through occupations as indivisible units.
+Key message: Generative AI enters the workplace through tasks, not through jobs as indivisible units.
+Act II - AI presence is not the same as human replacement
+The second act challenges a common interpretation of exposure. A highly exposed occupation is not necessarily highly automated. Observed AI use can involve direct task execution, but it can also involve iteration, validation, feedback, and learning in which the human remains actively involved. The relevant question is therefore not only how much AI is used, but what role AI plays when it is used.
+Key message: High AI exposure is not the same as high automation.
+Act III - AI reshapes the internal composition of jobs
+The third act opens the occupation black box. A single occupation can contain routine, analytical, interpersonal, managerial, and learning-oriented tasks. AI may automate some of these tasks while augmenting others. This means that labeling an entire occupation as either automated or augmented can hide the actual reorganization taking place inside the job.
+Key message: AI does not simply replace jobs; it redistributes work within jobs.
+Act IV - The emerging division of labor varies across occupational contexts
+The final act examines whether the worker-versus-copilot pattern is related to the structure of occupations. Job Zone, salary, job family, and overall AI exposure provide context for understanding where AI is used primarily to execute tasks and where it is used primarily to complement human judgment, expertise, or coordination. The goal is not to claim that pay or Job Zone causes a particular AI role, but to identify systematic descriptive patterns and meaningful exceptions.
+Key message: The impact of generative AI depends not only on how much AI is used, but on what tasks it enters and how humans remain involved.
+4. Research Question Map
+RQ
+Main question
+Core construct
+Primary level
+Narrative contribution
+RQ1
+Where is AI entering work?
+AI exposure
+Occupations and tasks
+Establish the landscape of AI use.
+RQ2
+Is AI doing the work or helping the worker?
+Automation vs augmentation
+Occupation-task
+Identify the role AI plays once it is present.
+RQ3
+Does AI reshape tasks differently within the same job?
+Within-job task variation
+Occupation-task and task clusters
+Show how AI reorganizes the internal structure of jobs.
+RQ4
+Under what occupational conditions is AI a worker versus a copilot?
+Occupational context
+Occupation, Job Zone, salary
+Explain where different human-AI divisions of labor appear.
+
+5. Suggested Opening and Closing Narrative
+Opening
+Generative AI is rapidly entering workplace activities, but exposure alone does not tell us whether AI is replacing human work or changing how humans perform it. To understand the transformation of work, we need to move from where AI appears, to what role it plays, to how that role varies across tasks within jobs, and finally to the occupational conditions under which AI behaves more like an executor or a copilot.
+Closing
+The central implication is that the future of work cannot be understood by asking only which jobs are exposed to AI. The more informative question is how generative AI reallocates tasks between humans and machines. Some tasks may be delegated to AI, others may become more collaborative, and the balance between these modes varies across the structure of work.
+The question is not simply whether AI will replace jobs, but how AI redistributes tasks between humans and machines.
+6. Possible Project Titles
+Who Does the Work? How Generative AI Is Reshaping the Division of Labor Between Humans and Machines
+Beyond AI Exposure: Automation, Augmentation, and the Reorganization of Work
+AI at Work: From Exposure to the Human-Machine Division of Labor

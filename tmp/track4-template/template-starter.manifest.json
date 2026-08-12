@@ -1,0 +1,101 @@
+{
+  "sourcePptx": "/Users/nampham/Documents/Blended/Tableau/track4.pptx",
+  "mapPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-frame-map.json",
+  "output": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter.pptx",
+  "outputBytes": 4039688,
+  "sourceSlideCount": 39,
+  "slideCount": 8,
+  "previewDir": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview",
+  "layoutDir": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout",
+  "contactSheet": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-contact-sheet.png",
+  "slides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 3,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-01.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-01.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-01.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-01.layout.json"
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 5,
+      "narrativeRole": "problem and research arc",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 2,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-02.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-02.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-02.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-02.layout.json"
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 7,
+      "narrativeRole": "methodology and metric definitions",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 3,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-03.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-03.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-03.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-03.layout.json"
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 9,
+      "narrativeRole": "concentration evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 3,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-04.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-04.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-04.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-04.layout.json"
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 11,
+      "narrativeRole": "overall role balance evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 3,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-05.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-05.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-05.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-05.layout.json"
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 12,
+      "narrativeRole": "task variation evidence and callout",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 4,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-06.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-06.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-06.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-06.layout.json"
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "occupational context evidence and conclusion",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 3,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-07.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-07.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-07.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-07.layout.json"
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 16,
+      "narrativeRole": "lessons learned and synthesis",
+      "reuseMode": "duplicate-slide",
+      "editTargetCount": 10,
+      "previewPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-preview/starter-slide-08.png",
+      "previewRelativePath": "template-starter-preview/starter-slide-08.png",
+      "layoutPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout/starter-slide-08.layout.json",
+      "layoutRelativePath": "template-starter-layout/starter-slide-08.layout.json"
+    }
+  ]
+}

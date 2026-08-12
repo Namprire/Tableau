@@ -1,0 +1,133 @@
+{
+  "outputSlides": [
+    {
+      "outputSlide": 1,
+      "sourceSlide": 1,
+      "narrativeRole": "opening thesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/c36xsvup", "action": "rewrite" },
+        { "shapeId": "sh/d4fy10ba", "action": "rewrite" },
+        { "shapeId": "sh/r2dgzqt4", "action": "delete" }
+      ]
+    },
+    {
+      "outputSlide": 2,
+      "sourceSlide": 5,
+      "narrativeRole": "problem and research arc",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/5sr6pwr6", "action": "rewrite" },
+        { "shapeId": "sh/4ri5grql", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 3,
+      "sourceSlide": 7,
+      "narrativeRole": "methodology and metric definitions",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/6psri5gr", "action": "rewrite" },
+        { "shapeId": "sh/8vil47ml", "action": "rewrite" },
+        { "shapeId": "sh/rq1sbahc", "action": "replace" }
+      ]
+    },
+    {
+      "outputSlide": 4,
+      "sourceSlide": 9,
+      "narrativeRole": "concentration evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/ofatcbmd", "action": "rewrite" },
+        { "shapeId": "sh/qhsbe14j", "action": "rewrite" },
+        { "shapeId": "sh/pgja5wny", "action": "replace" }
+      ]
+    },
+    {
+      "outputSlide": 5,
+      "sourceSlide": 11,
+      "narrativeRole": "overall role balance evidence",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/5cz65s7y", "action": "replace" },
+        { "shapeId": "sh/4bq5c7qd", "action": "rewrite" },
+        { "shapeId": "sh/jaxo32p8", "action": "rewrite" }
+      ]
+    },
+    {
+      "outputSlide": 6,
+      "sourceSlide": 12,
+      "narrativeRole": "task variation evidence and callout",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/9cf2loby", "action": "rewrite" },
+        { "shapeId": "sh/m943a9sn", "action": "rewrite" },
+        { "shapeId": "sh/naxkjet8", "action": "replace" },
+        { "shapeId": "sh/07ml8zah", "action": "replace" }
+      ]
+    },
+    {
+      "outputSlide": 7,
+      "sourceSlide": 7,
+      "narrativeRole": "occupational context evidence and conclusion",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/6psri5gr", "action": "rewrite" },
+        { "shapeId": "sh/8vil47ml", "action": "rewrite" },
+        { "shapeId": "sh/rq1sbahc", "action": "replace" }
+      ]
+    },
+    {
+      "outputSlide": 8,
+      "sourceSlide": 16,
+      "narrativeRole": "lessons learned and synthesis",
+      "reuseMode": "duplicate-slide",
+      "editTargets": [
+        { "shapeId": "sh/utwvi18n", "action": "rewrite" },
+        { "shapeId": "sh/vu5wr698", "action": "rewrite" },
+        { "shapeId": "sh/8redgrqh", "action": "rewrite" },
+        { "shapeId": "sh/9snepwr2", "action": "rewrite" },
+        { "shapeId": "sh/mpwveh8b", "action": "rewrite" },
+        { "shapeId": "sh/tore10r6", "action": "rewrite" },
+        { "shapeId": "sh/0ju943q5", "action": "rewrite" },
+        { "shapeId": "sh/lk3ado7q", "action": "rewrite" },
+        { "shapeId": "sh/7q5wnm9w", "action": "rewrite" },
+        { "shapeId": "sh/snyxsvql", "action": "rewrite" }
+      ]
+    }
+  ],
+  "omittedSourceSlides": [
+    { "sourceSlide": 2, "reason": "template instruction slide" },
+    { "sourceSlide": 3, "reason": "agenda graphic is denser than the requested supporting deck" },
+    { "sourceSlide": 4, "reason": "section divider not needed" },
+    { "sourceSlide": 6, "reason": "two-column layout is less suitable for dashboard imagery" },
+    { "sourceSlide": 8, "reason": "main-point layout duplicates title-slide narrative" },
+    { "sourceSlide": 10, "reason": "full-bleed image layout provides no framing copy" },
+    { "sourceSlide": 13, "reason": "comparison callout layout is not required" },
+    { "sourceSlide": 14, "reason": "light text-only layout not needed" },
+    { "sourceSlide": 15, "reason": "alternate image/title layout not needed" },
+    { "sourceSlide": 17, "reason": "duplicate of the six-slot lesson layout" },
+    { "sourceSlide": 18, "reason": "font and color documentation" },
+    { "sourceSlide": 19, "reason": "icon pack resource" },
+    { "sourceSlide": 20, "reason": "graphic resource" },
+    { "sourceSlide": 21, "reason": "map resource" },
+    { "sourceSlide": 22, "reason": "diagram resource" },
+    { "sourceSlide": 23, "reason": "table resource" },
+    { "sourceSlide": 24, "reason": "shape resource" },
+    { "sourceSlide": 25, "reason": "chart resource" },
+    { "sourceSlide": 26, "reason": "infographic resource" },
+    { "sourceSlide": 27, "reason": "infographic resource" },
+    { "sourceSlide": 28, "reason": "icon resource" },
+    { "sourceSlide": 29, "reason": "icon resource" },
+    { "sourceSlide": 30, "reason": "icon resource" },
+    { "sourceSlide": 31, "reason": "icon resource" },
+    { "sourceSlide": 32, "reason": "icon resource" },
+    { "sourceSlide": 33, "reason": "icon resource" },
+    { "sourceSlide": 34, "reason": "icon resource" },
+    { "sourceSlide": 35, "reason": "icon resource" },
+    { "sourceSlide": 36, "reason": "icon resource" },
+    { "sourceSlide": 37, "reason": "icon resource" },
+    { "sourceSlide": 38, "reason": "icon resource" },
+    { "sourceSlide": 39, "reason": "icon resource" }
+  ]
+}

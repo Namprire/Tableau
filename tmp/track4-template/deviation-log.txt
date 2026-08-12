@@ -1,0 +1,8 @@
+Intentional deviations from copied source slides
+
+- Slide 1: the optional title-slide picture placeholder is deleted so the opening remains minimal and uses the template's dark geometry as the visual.
+- Slide 2: the generic body placeholder is rewritten with a compact problem statement and four-part analytical sequence.
+- Slide 3: the body placeholder is rewritten as a concise methodology block; the dashboard fills the inherited picture placeholder.
+- Slides 4-7: dashboard images replace inherited picture placeholders; no generated or external imagery is used.
+- Slide 8: the six paired subtitle placeholders are used as four lessons plus two closing statements; unused slots are deliberately deleted.
+- No template colors, fonts, master furniture, or logo assets are recreated outside inherited source slides.

@@ -1,0 +1,761 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/t03xkw",
+    "id": "t03xkw",
+    "slide": 4,
+    "layoutId": "d5e96ee4-8ce3-48d3-ab42-50fca8767f6b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1a850a4d-c81e-417d-98a4-a090dc0d7465",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F5F0",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d5e96ee4-8ce3-48d3-ab42-50fca8767f6b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1a850a4d-c81e-417d-98a4-a090dc0d7465",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1a850a4d-c81e-417d-98a4-a090dc0d7465",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobytw7e",
+      "id": "1",
+      "name": "section-4",
+      "bbox": [
+        68,
+        34,
+        560,
+        24
+      ],
+      "geometry": "rect",
+      "text": "FINDING 1 - WHERE AI ENTERS WORK",
+      "textPreview": "FINDING 1 - WHERE AI ENTERS WORK",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#2F713D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FINDING 1 - WHERE AI ENTERS WORK"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FINDING 1 - WHERE AI ENTERS WORK",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#2F713D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FINDING 1 - WHERE AI ENTERS WORK",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#2F713D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alkzyho3",
+      "id": "2",
+      "name": "page-4",
+      "bbox": [
+        1160,
+        34,
+        52,
+        24
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "color": "#65717A",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Aptos",
+            "color": "#65717A",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#65717A",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtgrmp8",
+      "id": "3",
+      "name": "title-4",
+      "bbox": [
+        68,
+        70,
+        1144,
+        108
+      ],
+      "geometry": "rect",
+      "text": "Observed AI use is concentrated in a small set\nof occupational families.",
+      "textPreview": "Observed AI use is concentrated in a small set | of occupational families.",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Aptos",
+        "color": "#18232D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observed AI use is concentrated in a small set"
+          },
+          {
+            "index": 2,
+            "text": "of occupational families."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observed AI use is concentrated in a small set",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Aptos",
+            "color": "#18232D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observed AI use is concentrated in a small set",
+              "fontSize": 48,
+              "typeface": "Aptos",
+              "color": "#18232D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "of occupational families.",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Aptos",
+            "color": "#18232D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "of occupational families.",
+              "fontSize": 48,
+              "typeface": "Aptos",
+              "color": "#18232D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8j2xwr6x",
+      "id": "4",
+      "name": "concentration-dashboard-backing",
+      "bbox": [
+        56,
+        178,
+        818,
+        487
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#CBCBC6",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4f6pcnip",
+      "id": "5",
+      "bbox": [
+        62,
+        184,
+        806,
+        475
+      ],
+      "geometry": "roundRect",
+      "alt": "Tableau dashboard showing concentration of AI exposure by occupational family, occupation, and shared-task category",
+      "contentType": "image/jpeg",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 1684"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "4dca9728-c1a6-4320-9626-4ba5046c7f08",
+        "contentType": "image/jpeg",
+        "byteLength": 596128
+      }
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mh0fuhor",
+      "id": "6",
+      "name": "concentration-stat",
+      "bbox": [
+        910,
+        202,
+        260,
+        74
+      ],
+      "geometry": "rect",
+      "text": "~39%",
+      "textPreview": "~39%",
+      "resolvedFontSize": 60,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 60,
+        "typeface": "Aptos",
+        "color": "#2F713D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "~39%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "~39%",
+          "resolvedTextStyle": {
+            "fontSize": 60,
+            "typeface": "Aptos",
+            "color": "#2F713D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "~39%",
+              "fontSize": 60,
+              "typeface": "Aptos",
+              "color": "#2F713D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ni9gnmpc",
+      "id": "7",
+      "name": "concentration-stat-label",
+      "bbox": [
+        912,
+        276,
+        295,
+        116
+      ],
+      "geometry": "rect",
+      "text": "of observed AI exposure comes from Computer & Mathematical occupations.",
+      "textPreview": "of observed AI exposure comes from Computer & Mathematical occupations.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "#18232D",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "of observed AI exposure"
+          },
+          {
+            "index": 2,
+            "text": "comes from Computer &"
+          },
+          {
+            "index": 3,
+            "text": "Mathematical"
+          },
+          {
+            "index": 4,
+            "text": "occupations."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "of observed AI exposure comes from Computer & Mathematical occupations.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Aptos",
+            "color": "#18232D",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "of observed AI exposure comes from Computer & Mathematical occupations.",
+              "fontSize": 24,
+              "typeface": "Aptos",
+              "color": "#18232D",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fixs76l",
+      "id": "8",
+      "name": "concentration-rule",
+      "bbox": [
+        912,
+        416,
+        285,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D8D6D0",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lgrylc76",
+      "id": "9",
+      "name": "concentration-insight",
+      "bbox": [
+        912,
+        440,
+        290,
+        132
+      ],
+      "geometry": "rect",
+      "text": "Concentration continues inside families: a few occupations and tasks account for much of the total.",
+      "textPreview": "Concentration continues inside families: a few occupations and tasks account for much of the total.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Aptos",
+        "color": "#273744",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Concentration continues"
+          },
+          {
+            "index": 2,
+            "text": "inside families: a few"
+          },
+          {
+            "index": 3,
+            "text": "occupations and tasks"
+          },
+          {
+            "index": 4,
+            "text": "account for much of the"
+          },
+          {
+            "index": 5,
+            "text": "total."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Concentration continues inside families: a few occupations and tasks account for much of the total.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Aptos",
+            "color": "#273744",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Concentration continues inside families: a few occupations and tasks account for much of the total.",
+              "fontSize": 22,
+              "typeface": "Aptos",
+              "color": "#273744",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwv6d8ve",
+      "id": "10",
+      "name": "concentration-caveat",
+      "bbox": [
+        912,
+        608,
+        292,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Observed AI conversations - not employment share",
+      "textPreview": "Observed AI conversations - not employment share",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "color": "#65717A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observed AI conversations - not"
+          },
+          {
+            "index": 2,
+            "text": "employment share"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observed AI conversations - not employment share",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Aptos",
+            "color": "#65717A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observed AI conversations - not employment share",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#65717A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovm5k3et",
+      "id": "11",
+      "name": "footer-line-4",
+      "bbox": [
+        68,
+        684,
+        1144,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D8D6D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nudobyd8",
+      "id": "12",
+      "name": "footer-label-4",
+      "bbox": [
+        68,
+        692,
+        480,
+        18
+      ],
+      "geometry": "rect",
+      "text": "AI AT WORK  /  TABLEAU FINAL PROJECT",
+      "textPreview": "AI AT WORK  /  TABLEAU FINAL PROJECT",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 13,
+        "typeface": "Aptos",
+        "color": "#65717A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI AT WORK  /  TABLEAU FINAL PROJECT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI AT WORK  /  TABLEAU FINAL PROJECT",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "typeface": "Aptos",
+            "color": "#65717A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI AT WORK  /  TABLEAU FINAL PROJECT",
+              "fontSize": 13,
+              "typeface": "Aptos",
+              "color": "#65717A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,587 @@
+PAGES	17
+
+<<<PAGE 1>>>
+M
+a
+pping AI Adoption
+in the US Economy
+Tra
+ck 2: B
+aixiu,
+Cindy,
+Kent
+,
+a
+Yuf
+a
+n
+D
+a
+te: April 01,
+2026
+
+<<<PAGE 2>>>
+CONTENT
+01
+Key Question
+02
+D
+ashb
+o
+ard design
+03
+04
+Conclusion
+Lessons le
+arned
+
+<<<PAGE 3>>>
+KEY QUESTION
+01
+How does the frequency and
+distribution of AI usage vary
+across different industries or job
+types?
+03
+How is AI predomin
+utom
+a
+a
+tion or
+a
+ugment
+a
+a
+cross different t
+asks
+a
+ntly used for
+a
+tion
+b
+nd jo
+s?
+04
+02
+How do Bright/Green jo
+b
+differ from non-
+Bright/Green jo
+b
+s in AI
+usa
+ge?
+s
+How does
+utom
+a
+a
+tion risk
+(Ch
+nceAuto)
+a
+rela
+b
+te to o
+p
+a
+tterns of Al usa
+ge
+a
+nd
+ugment
+a
+a
+tion/
+a
+utom
+served
+a
+tion ra
+tios?
+
+<<<PAGE 4>>>
+IMPROVENET (Before)
+All v
+aria
+bles
+are the
+me
+asurement.
+a
+vera
+ge v
+alue for
+Add the title of
+the p
+a
+ttern
+L
+b
+a
+el P
+ara
+meter cle
+ar
+03 DASHBOARD
+DESIGH
+Cle
+a
+n up null v
+alues
+
+<<<PAGE 5>>>
+DASHBOARD DESIGN-Top N Jo
+b
+F
+a
+milies
+b
+y AI Usa
+ge Frequency
+03 DASHBOARD
+DESIGH
+
+<<<PAGE 6>>>
+DASHBOARD DESIGN - AI usa
+ge p
+a
+tterns
+b
+y Trend B
+ase(Bright/
+Green)
+low Aug.
+&
+high Auto.
+high Aug. &
+high Auto.
+high Aug. &
+low Auto.
+Spera
+ted into Four qu
+a
+tra
+nt
+High Aug. & high Auto. - repla
+ced
+b
+y someone known how to use AI
+High Aug. & low Auto. - Ide
+al zone
+(Bright outlook)
+Low Aug. & high Auto. - e
+asily
+repla
+ced
+b
+y AI
+Low Aug. & low Auto.
+Bright Outlook jo
+b
+high
+ugment
+a
+a
+tion.
+s shift tow
+ard
+low Aug.
+&
+low Auto.
+
+<<<PAGE 7>>>
+DASHBOARD DESIGN - AI usa
+ge p
+a
+tterns
+b
+y Trend B
+ase(Bright/
+Green)
+Avg.Num_jo
+b_sh
+_t
+ask = 17
+aring
+03 DASHBOARD
+DESIGH
+Avg.Num_jo
+b_sh
+_t
+ask = 1
+aring
+The sm
+aller size of
+a
+vg. numb
+sh
+aring t
+asks me
+a
+ns th
+a
+t there
+specialized t
+asks.
+er jobs
+are
+
+<<<PAGE 8>>>
+DASHBOARD DESIGN- N
+a
+ture of AI Usa
+ge: Augment
+a
+tion vs Autom
+for frequently AI-
+assited t
+asks
+a
+tion
+
+<<<PAGE 9>>>
+DASHBOARD DESIGN- N
+b
+for Jo
+F
+a
+mily
+a
+ture of AI Usa
+ge: Augment
+a
+tion vs Autom
+a
+tion
+While cert
+ain t
+asks c
+n
+a
+b
+e fully outsourced to
+AI,
+entire occup
+a
+tions
+c
+nnot yet
+b
+e
+a
+completely repla
+ced.
+AI is
+b
+eing widely
+dopted
+a
+a
+cross m
+ny
+a
+types of work.
+
+<<<PAGE 10>>>
+DASHBOARD DESIGN- N
+Autom
+a
+ture of AI Usa
+ge: Augment
+a
+a
+tion for T
+ask Type
+tion vs
+
+<<<PAGE 11>>>
+DASHBOARD DESIGN-N
+Autom
+a
+ture of AI Usa
+ge: Augment
+a
+a
+tion for N
+a
+ture of T
+asks
+tion vs
+
+<<<PAGE 12>>>
+DASHBOARD DESIGN-N
+Security,
+W
+a
+ges,
+a
+a
+ture of AI Usa
+ge:Al Use in Rela
+b
+tion to Jo
+nd Outlook
+•
+Visu
+al: Color-coded sc
+a
+tter
+plot (b
+y jo
+b
+n
+me)
+a
++ du
+al-
+a
+xis line for
+ugment
+a
+a
+tion ra
+tio
+•
+Insight:
+•
+High Ch
+03 DASHBOARD
+a
+nce Auto roles → Al
+used for
+utom
+a
+a
+tion (low
+ugment
+a
+a
+tion)
+.
+•
+Low Ch
+a
+nce Auto roles → Al
+DESIGH
+used for
+ugment
+a
+a
+tion (high
+ugment
+a
+a
+tion)
+.
+•
+N
+arra
+tive: "Al
+aligns with
+utom
+a
+a
+tion potential:
+repla
+ce
+a
+ble work uses Al to
+repla
+ce,
+irrepla
+ce
+a
+ble work uses
+Al to enh
+a
+nce."
+
+<<<PAGE 13>>>
+DASHBOARD DESIGN-N
+a
+ture of AI Usa
+ge:Al Use in Rela
+b
+tion to Jo
+Security,
+W
+ges,
+a
+a
+nd Outlook 1. There is
+we
+b
+a
+etween jo
+b
+a
+k positive correla
+tion
+forec
+ast size
+nd
+a
+utom
+a
+a
+tion risk (Ch
+nce Auto),
+b
+ut jo
+b
+a
+type/industry is
+a
+much stronger f
+a
+ctor.
+2. Jo
+b
+s with high
+utom
+a
+a
+tion risk use AI
+m
+ainly for
+utom
+a
+a
+tion (low
+ugment
+a
+a
+tion ra
+tio),
+while jo
+b
+s with low
+utom
+03 DASHBOARD
+a
+a
+tion risk use AI to
+ugment
+a
+hum
+a
+n work (high
+ugment
+a
+a
+tion ra
+tio)
+.
+ge
+DESIGH
+3. W
+a
+higher-w
+utom
+nd t
+a
+ask p
+a
+tterns
+also differ:
+ge jo
+b
+s often show lower
+a
+a
+a
+tion risk
+a
+nd more AI-
+ugmented
+a
+work.
+
+<<<PAGE 14>>>
+IMPROVEMENT (After)
+
+<<<PAGE 15>>>
+CONCLUSION
+AI is not simply "eliminating" jobs, but is "reshaping" tasks.
+Currently, AI plays an uneven but critical role in the U.S. economy: it
+functions primarily as an amplifying force, especially in high-
+intellect, high-growth sectors. Future career resilience will no
+longer depend on avoiding AI, but on leveraging AI as a multiplier
+of professional competitiveness through specialization and by
+enhancing the ability to collaborate with AI.
+
+<<<PAGE 16>>>
+LESSONS LEARNED
+Use consistent metrics
+→ Avoid mixing me
+n,
+a
+media
+n,
+sum,
+etc. to keep gra
+phs consistent
+Choose ch
+b
+arts
+ased on rela
+tionships
+→ Sc
+a
+tter (rela
+tionship),
+B
+ar (comp
+arison),
+Line (trend over time)
+Add cle
+ar titles to e
+ch ch
+a
+art
+→ M
+a
+ke the purpose immedia
+tely underst
+nd
+a
+a
+ble
+L
+b
+a
+el p
+ara
+meters cle
+arly
+→ Use me
+a
+ningful
+a
+nd descriptive n
+Use the sa
+me color in the c
+a
+tegory
+→ M
+aint
+ain consistency in the c
+a
+a
+mes
+tegory colors used
+a
+cross different ch
+arts
+
+<<<PAGE 17>>>
+Th
+nk you
+a
+Tra
+ck 2
+D
+a
+te: April 01,
+2026

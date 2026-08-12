@@ -1,0 +1,34 @@
+Track 4 template audit
+
+Source: track4.pptx
+Slides inspected: all 39 source slides.
+
+Visual system
+- 16:9, 960 x 540 source canvas.
+- Primary dark navy: #071F4A.
+- Supporting pale blue: #6CA7DA.
+- Deep ink: #050B17.
+- Light slides use white-to-pale-blue gradients; dark slides use navy-to-mid-blue gradients.
+- Body type: Inter Tight. Secondary technical type: IBM Plex Mono.
+- Top-right BlendED wordmark is inherited from the template master/layout system.
+
+Reusable slide types
+- Slide 1: dark title slide with title, subtitle, and picture slot.
+- Slide 5: dark title + large body canvas.
+- Slide 7: dark one-column text + right picture.
+- Slide 9: dark left title/subtitle + right picture.
+- Slide 11: dark half-image + large metric/title.
+- Slide 12: dark title/subtitle + two picture slots.
+- Slide 14: light title + large subtitle/body canvas.
+- Slide 16: light title + six compact paired text slots.
+
+Inherited placeholders
+- Every mapped source slide uses structural title/subtitle/body/picture placeholders.
+- Each placeholder is rewritten or replaced through its inherited shape id.
+- Decorative template shapes and inherited BlendED branding remain untouched.
+
+Insertion contract
+- Output slides are duplicated from the mapped source slides.
+- Existing placeholders are filled directly; no parallel design is overlaid on copied slides.
+- Dashboard images replace inherited picture placeholders and preserve their frame geometry.
+- Speaker notes retain internal project sources in [Sources] blocks.

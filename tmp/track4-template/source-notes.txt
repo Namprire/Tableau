@@ -1,0 +1,40 @@
+Slide 1
+[Sources]
+- Project framing: AI_at_Work_Four_Question_Research_Story.docx
+
+Slide 2
+[Sources]
+- Project framing: AI_at_Work_Four_Question_Research_Story.docx
+- Assignment clarification supplied by the course instructor in the user prompt
+
+Slide 3
+[Sources]
+- figures/AI_at_Work_Unified_Dataset_Documentation.docx
+- analysis_dataset.csv
+- figures/20260812-005545.jpeg
+
+Slide 4
+[Sources]
+- analysis_dataset.csv
+- figures/20260812-013036.jpeg
+
+Slide 5
+[Sources]
+- analysis_dataset.csv
+- figures/20260812-005601.jpeg
+
+Slide 6
+[Sources]
+- analysis_dataset.csv
+- figures/20260812-005613.jpeg
+- figures/20260812-005545.jpeg
+
+Slide 7
+[Sources]
+- analysis_dataset.csv
+- figures/20260812-005637.jpeg
+
+Slide 8
+[Sources]
+- Project lessons synthesized from AI_at_Work_Four_Question_Research_Story.docx
+- figures/Final Presentation-fianl .pdf (structural reference for a concise lessons-learned close)

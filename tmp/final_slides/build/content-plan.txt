@@ -1,0 +1,21 @@
+Communication job
+
+By the end, the Tableau course audience should understand why AI exposure is not the same as job replacement, see the project's main evidence, and recognize the analytical and design lessons learned.
+
+Narrative arc
+
+1. Title: Who Does the Work?
+2. Problem: exposure alone cannot tell us whether AI replaces or supports work.
+3. Method: one occupation-task dataset connects presence to role.
+4. Finding: observed AI use is concentrated in a small set of occupational families.
+5. Finding: augmentation leads automation 57% to 43%.
+6. Finding: the same job can contain both automation and augmentation.
+7. Synthesis: occupational context shifts the balance, but the evidence is descriptive.
+8. Lessons learned: clearer metrics and cleaner Tableau design made the story more trustworthy.
+
+Visual system
+
+- 16:9 canvas, warm off-white background, charcoal typography.
+- Teal consistently represents augmentation/support; coral represents automation/execution.
+- Tableau screenshots remain the primary visuals and are used once each.
+- Flat composition, generous margins, concise takeaway titles, and minimal supporting copy.

@@ -1,0 +1,160 @@
+{"kind":"deck","id":"pr/jq0efr","name":"Deck"}
+{"kind":"layout","layoutId":"1a850a4d-c81e-417d-98a4-a090dc0d7465","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"d5e96ee4-8ce3-48d3-ab42-50fca8767f6b","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/fkjh0c","slide":1,"title":"TABLEAU FINAL PROJECT","textShapes":8}
+{"kind":"shape","id":"sh/6hkj2p0j","slide":1,"name":"title-left-rule","bbox":[0,0,14,720]}
+{"kind":"textbox","id":"sh/tkbixkja","slide":1,"name":"title-eyebrow","text":"TABLEAU FINAL PROJECT","textPreview":"TABLEAU FINAL PROJECT","textChars":21,"textLines":1,"bbox":[76,70,420,26]}
+{"kind":"shape","id":"sh/8j214fip","slide":1,"name":"title-mark","bbox":[76,142,7,188]}
+{"kind":"textbox","id":"sh/vmt0zu10","slide":1,"name":"deck-title","text":"Who Does the Work?","textPreview":"Who Does the Work?","textChars":18,"textLines":1,"bbox":[108,136,980,96]}
+{"kind":"textbox","id":"sh/ulkj6p0v","slide":1,"name":"deck-subtitle","text":"How generative AI is reshaping the division of labor\nbetween humans and machines","textPreview":"How generative AI is reshaping the division of labor | between humans and machines","textChars":80,"textLines":2,"bbox":[110,254,970,96]}
+{"kind":"textbox","id":"sh/h8vi14j6","slide":1,"name":"central-question-label","text":"Central question","textPreview":"Central question","textChars":16,"textLines":1,"bbox":[110,406,230,28]}
+{"kind":"textbox","id":"sh/g7218zil","slide":1,"name":"central-question","text":"How is generative AI reorganizing the division of work between people and machines?","textPreview":"How is generative AI reorganizing the division of work between people and machines?","textChars":83,"textLines":1,"bbox":[110,440,930,60]}
+{"kind":"textbox","id":"sh/3ad03e1c","slide":1,"name":"title-date","text":"AUGUST 2026","textPreview":"AUGUST 2026","textChars":11,"textLines":1,"bbox":[76,558,260,24]}
+{"kind":"shape","id":"sh/i94ja90r","slide":1,"name":"executor-band","bbox":[0,610,520,110]}
+{"kind":"shape","id":"sh/k7ulo3ix","slide":1,"name":"copilot-band","bbox":[520,610,760,110]}
+{"kind":"textbox","id":"sh/l832x8zi","slide":1,"name":"executor-label","text":"AI AS EXECUTOR","textPreview":"AI AS EXECUTOR","textChars":14,"textLines":1,"bbox":[76,646,360,32]}
+{"kind":"textbox","id":"sh/y5c3mt0r","slide":1,"name":"copilot-label","text":"AI AS COPILOT","textPreview":"AI AS COPILOT","textChars":13,"textLines":1,"bbox":[566,646,390,32]}
+{"kind":"notes","id":"nt/fkjh0c","slide":1,"text":"Open with the distinction between AI presence and AI role. The project asks how work is divided, not simply whether a job is exposed.\n\n[Sources]\n- AI_at_Work_Four_Question_Research_Story.docx (internal project narrative)\n- figures/AI_at_Work_Unified_Dataset_Documentation.docx (internal metric definitions)"}
+{"kind":"slide","id":"sl/sbuwvb","slide":2,"title":"THE PROBLEM","textShapes":21}
+{"kind":"textbox","id":"sh/5cv6t4nu","slide":2,"name":"section-2","text":"THE PROBLEM","textPreview":"THE PROBLEM","textChars":11,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/ip4ni943","slide":2,"name":"page-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/3qdore5o","slide":2,"name":"title-2","text":"AI exposure does not tell us whether it replaces\nor supports work.","textPreview":"AI exposure does not tell us whether it replaces | or supports work.","textChars":66,"textLines":2,"bbox":[68,70,1144,108]}
+{"kind":"textbox","id":"sh/sfmpojm5","slide":2,"name":"exposure-label","text":"Exposure","textPreview":"Exposure","textChars":8,"textLines":1,"bbox":[72,236,220,34]}
+{"kind":"textbox","id":"sh/dgf6xonq","slide":2,"name":"exposure-definition","text":"How much AI is used","textPreview":"How much AI is used","textChars":19,"textLines":1,"bbox":[72,274,350,34]}
+{"kind":"textbox","id":"sh/qd4nm94f","slide":2,"name":"role-label","text":"Role","textPreview":"Role","textChars":4,"textLines":1,"bbox":[72,346,220,34]}
+{"kind":"textbox","id":"sh/redove50","slide":2,"name":"role-definition","text":"What AI does when it is used","textPreview":"What AI does when it is used","textChars":28,"textLines":1,"bbox":[72,384,390,34]}
+{"kind":"shape","id":"sh/8j25cfm1","slide":2,"name":"problem-divider","bbox":[486,226,6,210]}
+{"kind":"textbox","id":"sh/tkb6lknm","slide":2,"name":"problem-question","text":"The question is not only where AI appears.\nIt is whether AI executes the task, supports the worker, or does both inside the same occupation.","textPreview":"The question is not only where AI appears. | It is whether AI executes the task, supports the worker, or does both inside the same occupa...","textChars":140,"textLines":2,"bbox":[530,225,650,210]}
+{"kind":"shape","id":"sh/1onqdc3e","slide":2,"name":"research-sequence-line","bbox":[118,548,1032,0]}
+{"kind":"shape","id":"sh/0ne94r2t","slide":2,"name":"sequence-node-1","bbox":[92,526,44,44]}
+{"kind":"textbox","id":"sh/zm58bml8","slide":2,"name":"sequence-number-1","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,536,44,22]}
+{"kind":"textbox","id":"sh/elwr2hkn","slide":2,"name":"sequence-heading-1","text":"WHERE","textPreview":"WHERE","textChars":5,"textLines":1,"bbox":[86,584,198,28]}
+{"kind":"textbox","id":"sh/9s7qhw3a","slide":2,"name":"sequence-body-1","text":"Locate AI","textPreview":"Locate AI","textChars":9,"textLines":1,"bbox":[86,614,230,50]}
+{"kind":"shape","id":"sh/8ry98r2p","slide":2,"name":"sequence-node-2","bbox":[366,526,44,44]}
+{"kind":"textbox","id":"sh/nqp8fml4","slide":2,"name":"sequence-number-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[366,536,44,22]}
+{"kind":"textbox","id":"sh/mpgr6hkj","slide":2,"name":"sequence-heading-2","text":"ROLE","textPreview":"ROLE","textChars":4,"textLines":1,"bbox":[360,584,198,28]}
+{"kind":"textbox","id":"sh/xwralw36","slide":2,"name":"sequence-body-2","text":"Executor or copilot?","textPreview":"Executor or copilot?","textChars":20,"textLines":1,"bbox":[360,614,230,50]}
+{"kind":"shape","id":"sh/wvy9cb21","slide":2,"name":"sequence-node-3","bbox":[640,526,44,44]}
+{"kind":"textbox","id":"sh/gz6t8fax","slide":2,"name":"sequence-number-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[640,536,44,22]}
+{"kind":"textbox","id":"sh/h0zahkbi","slide":2,"name":"sequence-heading-3","text":"TASKS","textPreview":"TASKS","textChars":5,"textLines":1,"bbox":[634,584,198,28]}
+{"kind":"textbox","id":"sh/uxob65s7","slide":2,"name":"sequence-body-3","text":"Open the job black box","textPreview":"Open the job black box","textChars":22,"textLines":1,"bbox":[634,614,230,50]}
+{"kind":"shape","id":"sh/vyxsfatc","slide":2,"name":"sequence-node-4","bbox":[914,526,44,44]}
+{"kind":"textbox","id":"sh/4nqtcfa9","slide":2,"name":"sequence-number-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[914,536,44,22]}
+{"kind":"textbox","id":"sh/5ozulkbu","slide":2,"name":"sequence-heading-4","text":"CONTEXT","textPreview":"CONTEXT","textChars":7,"textLines":1,"bbox":[908,584,198,28]}
+{"kind":"textbox","id":"sh/i18baps3","slide":2,"name":"sequence-body-4","text":"Preparation and occupation","textPreview":"Preparation and occupation","textChars":26,"textLines":1,"bbox":[908,614,230,50]}
+{"kind":"shape","id":"sh/32hcjato","slide":2,"name":"footer-line-2","bbox":[68,684,1144,0]}
+{"kind":"textbox","id":"sh/k7mt0vap","slide":2,"name":"footer-label-2","text":"AI AT WORK  /  TABLEAU FINAL PROJECT","textPreview":"AI AT WORK  /  TABLEAU FINAL PROJECT","textChars":36,"textLines":1,"bbox":[68,692,480,18]}
+{"kind":"notes","id":"nt/sbuwvb","slide":2,"text":"Use the sequence to frame the dashboard: locate AI, identify its role, inspect variation across tasks, then place the pattern in occupational context.\n\n[Sources]\n- AI_at_Work_Four_Question_Research_Story.docx (internal research-question map)"}
+{"kind":"slide","id":"sl/6qe9g2","slide":3,"title":"HOW WE ANSWER IT","textShapes":13}
+{"kind":"textbox","id":"sh/wzydcvmx","slide":3,"name":"section-3","text":"HOW WE ANSWER IT","textPreview":"HOW WE ANSWER IT","textChars":16,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/vypw3q5c","slide":3,"name":"page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/uxwval4r","slide":3,"name":"title-3","text":"One occupation-task dataset connects AI presence to AI's role.","textPreview":"One occupation-task dataset connects AI presence to AI's role.","textChars":62,"textLines":1,"bbox":[68,70,1144,92]}
+{"kind":"textbox","id":"sh/5o7e903e","slide":3,"name":"row-count","text":"3,963","textPreview":"3,963","textChars":5,"textLines":1,"bbox":[70,176,330,72]}
+{"kind":"textbox","id":"sh/4nyxgvmt","slide":3,"name":"row-count-label","text":"occupation-task pairs","textPreview":"occupation-task pairs","textChars":21,"textLines":1,"bbox":[72,244,330,32]}
+{"kind":"shape","id":"sh/jmpw7q58","slide":3,"name":"metric-rule-1","bbox":[72,294,382,0]}
+{"kind":"textbox","id":"sh/ilgve54n","slide":3,"name":"dataset-scope","text":"731 occupations  /  5 interaction modes","textPreview":"731 occupations  /  5 interaction modes","textChars":39,"textLines":1,"bbox":[72,314,385,62]}
+{"kind":"textbox","id":"sh/tsredk3a","slide":3,"name":"automation-heading","text":"Automation","textPreview":"Automation","textChars":10,"textLines":1,"bbox":[72,400,220,40]}
+{"kind":"textbox","id":"sh/srixkfmp","slide":3,"name":"automation-formula","text":"directive + feedback loop","textPreview":"directive + feedback loop","textChars":25,"textLines":1,"bbox":[72,444,360,32]}
+{"kind":"textbox","id":"sh/e18v6tg3","slide":3,"name":"augmentation-heading","text":"Augmentation","textPreview":"Augmentation","textChars":12,"textLines":1,"bbox":[72,492,250,40]}
+{"kind":"textbox","id":"sh/f2hczyxo","slide":3,"name":"augmentation-formula","text":"iteration + validation + learning","textPreview":"iteration + validation + learning","textChars":33,"textLines":1,"bbox":[72,536,390,54]}
+{"kind":"textbox","id":"sh/0nqd83y9","slide":3,"name":"role-balance-formula","text":"Role balance = augmentation - automation","textPreview":"Role balance = augmentation - automation","textChars":40,"textLines":1,"bbox":[72,610,410,50]}
+{"kind":"shape","id":"sh/1ozu18fu","slide":3,"name":"method-dashboard-backing","bbox":[514,178,702,417]}
+{"kind":"textbox","id":"sh/nq1c3ix0","slide":3,"name":"grain-note","text":"Grain: one unique soc_code x task_id pair","textPreview":"Grain: one unique soc_code x task_id pair","textChars":41,"textLines":1,"bbox":[520,610,500,24]}
+{"kind":"shape","id":"sh/oradc3y5","slide":3,"name":"footer-line-3","bbox":[68,684,1144,0]}
+{"kind":"textbox","id":"sh/psju58fq","slide":3,"name":"footer-label-3","text":"AI AT WORK  /  TABLEAU FINAL PROJECT","textPreview":"AI AT WORK  /  TABLEAU FINAL PROJECT","textChars":36,"textLines":1,"bbox":[68,692,480,18]}
+{"kind":"image","id":"im/pk36dkfq","slide":3,"name":"","geometry":"roundRect","alt":"Tableau dashboard showing task-level AI role balance and interaction modes by job family","bbox":[520,184,690,405]}
+{"kind":"notes","id":"nt/6qe9g2","slide":3,"text":"Explain that exposure answers how much AI is observed, while the five interaction modes classify what AI is doing. Valid role observations require complete interactions, positive exposure, and the quality filter.\n\n[Sources]\n- figures/AI_at_Work_Unified_Dataset_Documentation.docx (dataset grain and metric definitions)\n- analysis_dataset.csv (3,963 rows; 731 distinct occupations)\n- figures/20260812-005545.jpeg (team-provided Tableau export)"}
+{"kind":"slide","id":"sl/t03xkw","slide":4,"title":"FINDING 1 - WHERE AI ENTERS WORK","textShapes":8}
+{"kind":"textbox","id":"sh/xobytw7e","slide":4,"name":"section-4","text":"FINDING 1 - WHERE AI ENTERS WORK","textPreview":"FINDING 1 - WHERE AI ENTERS WORK","textChars":32,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/alkzyho3","slide":4,"name":"page-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/vmtgrmp8","slide":4,"name":"title-4","text":"Observed AI use is concentrated in a small set\nof occupational families.","textPreview":"Observed AI use is concentrated in a small set | of occupational families.","textChars":72,"textLines":2,"bbox":[68,70,1144,108]}
+{"kind":"shape","id":"sh/8j2xwr6x","slide":4,"name":"concentration-dashboard-backing","bbox":[56,178,818,487]}
+{"kind":"textbox","id":"sh/mh0fuhor","slide":4,"name":"concentration-stat","text":"~39%","textPreview":"~39%","textChars":4,"textLines":1,"bbox":[910,202,260,74]}
+{"kind":"textbox","id":"sh/ni9gnmpc","slide":4,"name":"concentration-stat-label","text":"of observed AI exposure comes from Computer & Mathematical occupations.","textPreview":"of observed AI exposure comes from Computer & Mathematical occupations.","textChars":71,"textLines":1,"bbox":[912,276,295,116]}
+{"kind":"shape","id":"sh/0fixs76l","slide":4,"name":"concentration-rule","bbox":[912,416,285,0]}
+{"kind":"textbox","id":"sh/lgrylc76","slide":4,"name":"concentration-insight","text":"Concentration continues inside families: a few occupations and tasks account for much of the total.","textPreview":"Concentration continues inside families: a few occupations and tasks account for much of the total.","textChars":99,"textLines":1,"bbox":[912,440,290,132]}
+{"kind":"textbox","id":"sh/pwv6d8ve","slide":4,"name":"concentration-caveat","text":"Observed AI conversations - not employment share","textPreview":"Observed AI conversations - not employment share","textChars":48,"textLines":1,"bbox":[912,608,292,42]}
+{"kind":"shape","id":"sh/ovm5k3et","slide":4,"name":"footer-line-4","bbox":[68,684,1144,0]}
+{"kind":"textbox","id":"sh/nudobyd8","slide":4,"name":"footer-label-4","text":"AI AT WORK  /  TABLEAU FINAL PROJECT","textPreview":"AI AT WORK  /  TABLEAU FINAL PROJECT","textChars":36,"textLines":1,"bbox":[68,692,480,18]}
+{"kind":"image","id":"im/4f6pcnip","slide":4,"name":"","geometry":"roundRect","alt":"Tableau dashboard showing concentration of AI exposure by occupational family, occupation, and shared-task category","bbox":[62,184,806,475]}
+{"kind":"notes","id":"nt/t03xkw","slide":4,"text":"Lead with concentration, then point to the treemap: AI enters the workplace through specific occupations and tasks rather than diffusing evenly across all work.\n\n[Sources]\n- figures/20260812-013036.jpeg (team-provided Tableau export; 38.89% shown in the view)\n- analysis_dataset.csv (occupation-family exposure verification)"}
+{"kind":"slide","id":"sl/pwckhy","slide":5,"title":"FINDING 2 - WHAT ROLE AI PLAYS","textShapes":10}
+{"kind":"textbox","id":"sh/mx03qtkr","slide":5,"name":"section-5","text":"FINDING 2 - WHAT ROLE AI PLAYS","textPreview":"FINDING 2 - WHAT ROLE AI PLAYS","textChars":30,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/90rm18j2","slide":5,"name":"page-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/8zils32h","slide":5,"name":"title-5","text":"Across observed AI use, augmentation leads\nautomation 57% to 43%.","textPreview":"Across observed AI use, augmentation leads | automation 57% to 43%.","textChars":65,"textLines":2,"bbox":[68,70,1144,108]}
+{"kind":"textbox","id":"sh/v2t43i18","slide":5,"name":"augmentation-stat","text":"57%","textPreview":"57%","textChars":3,"textLines":1,"bbox":[72,202,300,74]}
+{"kind":"textbox","id":"sh/u1k3udkn","slide":5,"name":"augmentation-stat-label","text":"augmentation / copilot","textPreview":"augmentation / copilot","textChars":22,"textLines":1,"bbox":[74,278,380,42]}
+{"kind":"textbox","id":"sh/h4bm5sje","slide":5,"name":"automation-stat","text":"43%","textPreview":"43%","textChars":3,"textLines":1,"bbox":[72,346,300,74]}
+{"kind":"textbox","id":"sh/w32lwn2t","slide":5,"name":"automation-stat-label","text":"automation / executor","textPreview":"automation / executor","textChars":21,"textLines":1,"bbox":[74,422,380,42]}
+{"kind":"shape","id":"sh/jqt47i14","slide":5,"name":"role-stat-rule","bbox":[74,486,370,0]}
+{"kind":"textbox","id":"sh/ipknyd0j","slide":5,"name":"interaction-mode-callout","text":"Directive is the largest single mode (30.5%), while learning + iteration contribute 53.3% together.","textPreview":"Directive is the largest single mode (30.5%), while learning + iteration contribute 53.3% together.","textChars":99,"textLines":1,"bbox":[74,510,380,126]}
+{"kind":"shape","id":"sh/k76x0v6d","slide":5,"name":"overall-role-dashboard-backing","bbox":[494,182,722,432]}
+{"kind":"textbox","id":"sh/ylovylo7","slide":5,"name":"overall-role-takeaway","text":"AI behaves more like a copilot overall, even though direct execution remains the largest single interaction mode.","textPreview":"AI behaves more like a copilot overall, even though direct execution remains the largest single interaction mode.","textChars":113,"textLines":1,"bbox":[500,620,710,54]}
+{"kind":"shape","id":"sh/jmxwrq5s","slide":5,"name":"footer-line-5","bbox":[68,684,1144,0]}
+{"kind":"textbox","id":"sh/sbqx4fmp","slide":5,"name":"footer-label-5","text":"AI AT WORK  /  TABLEAU FINAL PROJECT","textPreview":"AI AT WORK  /  TABLEAU FINAL PROJECT","textChars":36,"textLines":1,"bbox":[68,692,480,18]}
+{"kind":"image","id":"im/exozip4f","slide":5,"name":"","geometry":"roundRect","alt":"Tableau dashboard showing overall augmentation versus automation and five human-AI interaction modes","bbox":[500,188,710,420]}
+{"kind":"notes","id":"nt/pwckhy","slide":5,"text":"Emphasize the distinction between the largest single mode and the overall grouped result: directive is the largest mode, but augmentation modes together produce the 57% majority.\n\n[Sources]\n- figures/20260812-005601.jpeg (team-provided Tableau export)\n- analysis_dataset.csv (56.98% augmentation; 43.02% automation; interaction-mode shares)"}
+{"kind":"slide","id":"sl/j0zvib","slide":6,"title":"FINDING 3 - OPEN THE JOB BLACK BOX","textShapes":12}
+{"kind":"textbox","id":"sh/xo7edkfa","slide":6,"name":"section-6","text":"FINDING 3 - OPEN THE JOB BLACK BOX","textPreview":"FINDING 3 - OPEN THE JOB BLACK BOX","textChars":34,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/algv25gz","slide":6,"name":"page-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/bmpwbaxk","slide":6,"name":"title-6","text":"Task-level variation breaks the idea of one AI role\nper job family.","textPreview":"Task-level variation breaks the idea of one AI role | per job family.","textChars":67,"textLines":2,"bbox":[68,70,1144,108]}
+{"kind":"shape","id":"sh/ojyd0vyt","slide":6,"name":"task-variation-dashboard-backing","bbox":[56,178,832,489]}
+{"kind":"textbox","id":"sh/mxwvy5gn","slide":6,"name":"selected-family-label","text":"ARCHITECTURE & ENGINEERING","textPreview":"ARCHITECTURE & ENGINEERING","textChars":26,"textLines":1,"bbox":[920,202,285,28]}
+{"kind":"shape","id":"sh/nypw7qx8","slide":6,"name":"bullet-accent-6a","bbox":[918,254,5,90]}
+{"kind":"textbox","id":"sh/8fixczex","slide":6,"name":"bullet-heading-6a","text":"Mostly copilot","textPreview":"Mostly copilot","textChars":14,"textLines":1,"bbox":[940,250,268,40]}
+{"kind":"textbox","id":"sh/tgrel4fi","slide":6,"name":"bullet-body-6a","text":"Most displayed tasks sit to the right of the zero line.","textPreview":"Most displayed tasks sit to the right of the zero line.","textChars":55,"textLines":1,"bbox":[940,294,268,54]}
+{"kind":"shape","id":"sh/hsfad4va","slide":6,"name":"bullet-accent-6b","bbox":[918,372,5,90]}
+{"kind":"textbox","id":"sh/wrmtkzup","slide":6,"name":"bullet-heading-6b","text":"Not uniform","textPreview":"Not uniform","textChars":11,"textLines":1,"bbox":[940,368,268,40]}
+{"kind":"textbox","id":"sh/vqdsbudk","slide":6,"name":"bullet-body-6b","text":"One Core task falls on the automation side.","textPreview":"One Core task falls on the automation side.","textChars":43,"textLines":1,"bbox":[940,412,268,54]}
+{"kind":"shape","id":"sh/up4bipcz","slide":6,"name":"bullet-accent-6c","bbox":[918,490,5,108]}
+{"kind":"textbox","id":"sh/9ova9kve","slide":6,"name":"bullet-heading-6c","text":"Different profiles","textPreview":"Different profiles","textChars":18,"textLines":1,"bbox":[940,486,268,40]}
+{"kind":"textbox","id":"sh/8nmtgfut","slide":6,"name":"bullet-body-6c","text":"Core and Supplemental tasks show different exposure and mode mixes.","textPreview":"Core and Supplemental tasks show different exposure and mode mixes.","textChars":67,"textLines":1,"bbox":[940,530,268,72]}
+{"kind":"textbox","id":"sh/7mds7ad8","slide":6,"name":"task-variation-takeaway","text":"A family average can hide the task mix.","textPreview":"A family average can hide the task mix.","textChars":39,"textLines":1,"bbox":[920,620,290,44]}
+{"kind":"shape","id":"sh/ml4bepcn","slide":6,"name":"footer-line-6","bbox":[68,684,1144,0]}
+{"kind":"textbox","id":"sh/tkzulovi","slide":6,"name":"footer-label-6","text":"AI AT WORK  /  TABLEAU FINAL PROJECT","textPreview":"AI AT WORK  /  TABLEAU FINAL PROJECT","textChars":36,"textLines":1,"bbox":[68,692,480,18]}
+{"kind":"image","id":"im/83ehov6t","slide":6,"name":"","geometry":"roundRect","alt":"Tableau dashboard showing Core and Supplemental tasks and task-level AI role balance for Architecture and Engineering","bbox":[62,184,820,477]}
+{"kind":"notes","id":"nt/j0zvib","slide":6,"text":"Use the selected Architecture and Engineering view as an example. The core point is methodological: task-level marks reveal variation that a single family or occupation average can hide.\n\n[Sources]\n- figures/20260812-005613.jpeg (team-provided Tableau export)\n- AI_at_Work_Four_Question_Research_Story.docx (internal task-reconfiguration narrative)"}
+{"kind":"slide","id":"sl/k2b5cl","slide":7,"title":"FINDING 4 - OCCUPATIONAL CONTEXT","textShapes":11}
+{"kind":"textbox","id":"sh/7mtkvids","slide":7,"name":"section-7","text":"FINDING 4 - OCCUPATIONAL CONTEXT","textPreview":"FINDING 4 - OCCUPATIONAL CONTEXT","textChars":32,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/8n2l4ned","slide":7,"name":"page-7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/tovmxsvy","slide":7,"name":"title-7","text":"Occupational context shifts the balance,\nbut the evidence is descriptive.","textPreview":"Occupational context shifts the balance, | but the evidence is descriptive.","textChars":73,"textLines":2,"bbox":[68,70,1144,108]}
+{"kind":"shape","id":"sh/yhk3ydwb","slide":7,"name":"context-dashboard-backing","bbox":[56,178,772,461]}
+{"kind":"textbox","id":"sh/kj2l03e1","slide":7,"name":"context-label","text":"WHAT THE VIEW SUGGESTS","textPreview":"WHAT THE VIEW SUGGESTS","textChars":22,"textLines":1,"bbox":[864,200,340,28]}
+{"kind":"shape","id":"sh/lkb2t8vm","slide":7,"name":"bullet-accent-7a","bbox":[862,254,5,108]}
+{"kind":"textbox","id":"sh/at03utwz","slide":7,"name":"bullet-heading-7a","text":"Preparation matters","textPreview":"Preparation matters","textChars":19,"textLines":1,"bbox":[884,250,323,40]}
+{"kind":"textbox","id":"sh/be9knydk","slide":7,"name":"bullet-body-7a","text":"The strongest augmentation balances appear at the lowest and highest preparation levels.","textPreview":"The strongest augmentation balances appear at the lowest and highest preparation levels.","textChars":88,"textLines":1,"bbox":[884,294,323,72]}
+{"kind":"shape","id":"sh/fapovmx8","slide":7,"name":"bullet-accent-7b","bbox":[862,390,5,96]}
+{"kind":"textbox","id":"sh/u9g72hwn","slide":7,"name":"bullet-heading-7b","text":"Direction changes","textPreview":"Direction changes","textChars":17,"textLines":1,"bbox":[884,386,323,40]}
+{"kind":"textbox","id":"sh/hc76xwfe","slide":7,"name":"bullet-body-7b","text":"Green versus non-Green differences change direction across levels.","textPreview":"Green versus non-Green differences change direction across levels.","textChars":66,"textLines":1,"bbox":[884,430,323,60]}
+{"kind":"shape","id":"sh/gbyp4ret","slide":7,"name":"bullet-accent-7c","bbox":[862,514,5,84]}
+{"kind":"textbox","id":"sh/3epoz6xk","slide":7,"name":"bullet-heading-7c","text":"Interpret carefully","textPreview":"Interpret carefully","textChars":19,"textLines":1,"bbox":[884,510,323,40]}
+{"kind":"textbox","id":"sh/2dg761wz","slide":7,"name":"bullet-body-7c","text":"These are descriptive associations, not causal effects.","textPreview":"These are descriptive associations, not causal effects.","textChars":55,"textLines":1,"bbox":[884,554,323,48]}
+{"kind":"shape","id":"sh/pgr61gva","slide":7,"name":"conclusion-band","bbox":[0,642,1280,78]}
+{"kind":"textbox","id":"sh/4fip8be5","slide":7,"name":"conclusion-statement","text":"AI is redistributing tasks - not uniformly replacing entire occupations.","textPreview":"AI is redistributing tasks - not uniformly replacing entire occupations.","textChars":72,"textLines":1,"bbox":[68,661,1144,38]}
+{"kind":"image","id":"im/ytobu10f","slide":7,"name":"","geometry":"roundRect","alt":"Tableau dashboard showing occupational preparation levels and AI role balance for Green versus non-Green occupations","bbox":[62,184,760,449]}
+{"kind":"notes","id":"nt/k2b5cl","slide":7,"text":"Frame these results as descriptive patterns. The strongest synthesis is that context matters, but no single occupational label determines whether AI is an executor or copilot.\n\n[Sources]\n- figures/20260812-005637.jpeg (team-provided Tableau export)\n- analysis_dataset.csv (Job Zone role-balance verification)\n- AI_at_Work_Four_Question_Research_Story.docx (internal conclusion language)"}
+{"kind":"slide","id":"sl/ad71kz","slide":8,"title":"LESSONS LEARNED","textShapes":18}
+{"kind":"textbox","id":"sh/6x03eh0f","slide":8,"name":"section-8","text":"LESSONS LEARNED","textPreview":"LESSONS LEARNED","textChars":15,"textLines":1,"bbox":[68,34,560,24]}
+{"kind":"textbox","id":"sh/t0rmpcj6","slide":8,"name":"page-8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1160,34,52,24]}
+{"kind":"textbox","id":"sh/szilg7il","slide":8,"name":"title-8","text":"Clearer metrics made the story\nmore trustworthy.","textPreview":"Clearer metrics made the story | more trustworthy.","textChars":48,"textLines":2,"bbox":[68,70,1144,112]}
+{"kind":"textbox","id":"sh/f294rm1c","slide":8,"name":"lesson-number-01","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,210,56,32]}
+{"kind":"textbox","id":"sh/u103ih0r","slide":8,"name":"lesson-heading-01","text":"Match measure to grain","textPreview":"Match measure to grain","textChars":22,"textLines":1,"bbox":[150,208,470,40]}
+{"kind":"textbox","id":"sh/h4bmdwj2","slide":8,"name":"lesson-body-01","text":"Use MIN/AVG for repeated occupation/task fields; SUM exposure components.","textPreview":"Use MIN/AVG for repeated occupation/task fields; SUM exposure components.","textChars":73,"textLines":1,"bbox":[650,208,555,66]}
+{"kind":"shape","id":"sh/g32lkrix","slide":8,"name":"lesson-rule-01","bbox":[150,278,1055,0]}
+{"kind":"textbox","id":"sh/b6pkfi1s","slide":8,"name":"lesson-number-02","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,306,56,32]}
+{"kind":"textbox","id":"sh/a5g36x0n","slide":8,"name":"lesson-heading-02","text":"Separate exposure from role","textPreview":"Separate exposure from role","textChars":27,"textLines":1,"bbox":[150,304,470,40]}
+{"kind":"textbox","id":"sh/sb25svut","slide":8,"name":"lesson-body-02","text":"Ask how much AI appears and what it does as separate questions.","textPreview":"Ask how much AI appears and what it does as separate questions.","textChars":63,"textLines":1,"bbox":[650,304,555,66]}
+{"kind":"shape","id":"sh/dcb6l0be","slide":8,"name":"lesson-rule-02","bbox":[150,374,1055,0]}
+{"kind":"textbox","id":"sh/q9knqlcn","slide":8,"name":"lesson-number-03","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,402,56,32]}
+{"kind":"textbox","id":"sh/ratojqt8","slide":8,"name":"lesson-heading-03","text":"Choose charts by relationship","textPreview":"Choose charts by relationship","textChars":29,"textLines":1,"bbox":[150,400,470,40]}
+{"kind":"textbox","id":"sh/0zmpwvup","slide":8,"name":"lesson-body-03","text":"Use bars to rank, 100% bars for balance, and heatmaps/scatters for association.","textPreview":"Use bars to rank, 100% bars for balance, and heatmaps/scatters for association.","textChars":79,"textLines":1,"bbox":[650,400,555,66]}
+{"kind":"shape","id":"sh/10v6p0ba","slide":8,"name":"lesson-rule-03","bbox":[150,470,1055,0]}
+{"kind":"textbox","id":"sh/ed47ulcj","slide":8,"name":"lesson-number-04","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,498,56,32]}
+{"kind":"textbox","id":"sh/fydonqt4","slide":8,"name":"lesson-heading-04","text":"Make confidence visible","textPreview":"Make confidence visible","textChars":23,"textLines":1,"bbox":[150,496,470,40]}
+{"kind":"textbox","id":"sh/w3i5kbul","slide":8,"name":"lesson-body-04","text":"Show exposure, task count, and coverage; label controls; remove nulls; lock semantic colors.","textPreview":"Show exposure, task count, and coverage; label controls; remove nulls; lock semantic colors.","textChars":92,"textLines":1,"bbox":[650,496,555,66]}
+{"kind":"shape","id":"sh/h4r6dwb6","slide":8,"name":"lesson-rule-04","bbox":[150,566,1055,0]}
+{"kind":"textbox","id":"sh/x0jmhsnu","slide":8,"name":"closing-question-one","text":"The better question is not \"Will AI replace jobs?\"","textPreview":"The better question is not \"Will AI replace jobs?\"","textChars":50,"textLines":1,"bbox":[72,608,560,38]}
+{"kind":"textbox","id":"sh/wzalonm9","slide":8,"name":"closing-question-two","text":"It is \"How is AI reallocating tasks between humans and machines?\"","textPreview":"It is \"How is AI reallocating tasks between humans and machines?\"","textChars":65,"textLines":1,"bbox":[650,604,555,76]}
+{"kind":"shape","id":"sh/by14fi5o","slide":8,"name":"footer-line-8","bbox":[68,684,1144,0]}
+{"kind":"textbox","id":"sh/axs3mx43","slide":8,"name":"footer-label-8","text":"AI AT WORK  /  TABLEAU FINAL PROJECT","textPreview":"AI AT WORK  /  TABLEAU FINAL PROJECT","textChars":36,"textLines":1,"bbox":[68,692,480,18]}
+{"kind":"notes","id":"nt/ad71kz","slide":8,"text":"Close by connecting the analytical lessons to the substantive conclusion. The project became clearer once data grain, aggregation, semantic color, and chart purpose were treated as part of the argument.\n\n[Sources]\n- figures/Final Presentation-fianl .pdf (internal structural reference for a lessons-learned close)\n- figures/AI_at_Work_Unified_Dataset_Documentation.docx (aggregation and coverage rules)\n- AI_at_Work_Four_Question_Research_Story.docx (internal closing narrative)"}

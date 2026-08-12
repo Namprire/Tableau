@@ -1,0 +1,31 @@
+Deck sources and provenance
+
+All sources are internal, user-provided project materials. No external web research or generated imagery is used.
+
+1. figures/Final Presentation-fianl .pdf
+   - Structural reference only: title -> key question -> dashboard evidence -> conclusion -> lessons learned.
+   - The PDF is not used as an editable visual template.
+
+2. figures/AI_at_Work_Unified_Dataset_Documentation.docx
+   - Dataset grain, metric definitions, aggregation rules, and QA cautions.
+
+3. AI_at_Work_Four_Question_Research_Story.docx
+   - Central question, narrative sequence, and conclusion language.
+
+4. analysis_dataset.csv
+   - Verified counts and aggregate results used in the deck: 3,963 occupation-task rows; 731 occupations; 57% augmentation and 43% automation; interaction-mode shares; occupational-family exposure.
+
+5. figures/20260812-005545.jpeg
+   - AI role balance by task type and job family; interaction-mode profile.
+
+6. figures/20260812-005601.jpeg
+   - Overall automation/augmentation balance and interaction-mode composition.
+
+7. figures/20260812-005613.jpeg
+   - Architecture and Engineering task-level variation and Core/Supplemental comparison.
+
+8. figures/20260812-005637.jpeg
+   - Job-preparation distribution and AI role balance by Green occupation status.
+
+9. figures/20260812-013036.jpeg
+   - Occupational-family concentration, treemap, and shared-task exposure.

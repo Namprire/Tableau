@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-12T06:45:56.136Z",
+  "workspace": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template",
+  "finalPptx": "/Users/nampham/Documents/Blended/Tableau/output/Who_Does_the_Work_Tableau_Final_Project_track4.pptx",
+  "starterPptx": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter.pptx",
+  "mapPath": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-frame-map.json",
+  "starterLayoutDir": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/template-starter-layout",
+  "finalLayoutDir": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/final-layout/final",
+  "editDir": "/Users/nampham/Documents/Blended/Tableau/tmp/track4-template/edit-evidence",
+  "issueCount": 0,
+  "issues": []
+}

@@ -1,0 +1,433 @@
+AI at Work Dashboard
+Unified Dataset Documentation and Research Question Map
+Recommended single analytical file: analysis_dataset.csv
+Notes
+CASE [Param - Measure 1 Selected]
+WHEN "Number of Petition" THEN [Number of Petition]
+WHEN "Median Salary" THEN MEDIAN([Prevailing Wage])
+END
+1. Unified Dataset Strategy
+Recommended unit of analysis: one occupation-task pair, uniquely identified by soc_code × task_id. This is the only level that preserves both occupation information and task information in the same row. It can be aggregated upward to the occupation, task, occupational family, Job Zone, and salary-group levels without losing the within-occupation task structure.
+The unified dataset replaces the earlier four-file workflow. The research questions and sub-questions remain substantively unchanged; only the data architecture and Tableau aggregation rules change.
+Property
+Definition
+File name
+analysis_dataset.csv
+Row definition
+One unique soc_code × task_id occupation-task pair
+Expected rows
+3,963 if soc_code × task_id is unique after removing missing task_name and task_type records
+Primary key
+soc_code + task_id
+Can answer occupation questions?
+Yes, by aggregating or using precomputed occupation-level fields
+Can answer task questions?
+Yes, by grouping on task_id and using task-level exposure fields
+Can answer occupation-task questions?
+Yes, directly at the row level
+Can answer Job Zone and salary questions?
+Yes, using occupation metadata and occupation-level metrics
+2. Core Measurement Logic
+AI exposure answers “How much is AI used?” Automation and augmentation orientation answer “When AI is used, is AI doing the work or helping a person do the work?”
+Measure
+Construction
+Interpretation
+Occupation AI exposure
+Sum task_percentage_job across all tasks belonging to the same soc_code.
+Share of all observed AI conversations attributed to that occupation.
+Task automation score
+directive + feedback_loop
+Strength of automation-oriented interaction modes for a job-task pair.
+Task augmentation score
+task_iteration + validation + learning
+Strength of augmentation-oriented interaction modes for a job-task pair.
+Task automation share
+task_automation_score / task_interaction_score_total
+Relative automation share among the five recorded interaction modes.
+Task augmentation share
+task_augmentation_score / task_interaction_score_total
+Relative augmentation share among the five recorded interaction modes.
+Task automation exposure
+task_percentage_job × task_automation_share
+The job-task exposure attributable to automation-oriented use.
+Task augmentation exposure
+task_percentage_job × task_augmentation_share
+The job-task exposure attributable to augmentation-oriented use.
+Occupation orientation
+Sum job-task automation or augmentation exposure within soc_code, then divide by classified occupation exposure.
+Whether observed AI use in the occupation is mainly automation or augmentation.
+AI role balance
+augmentation orientation − automation orientation
+Ranges from −1 (automation) to +1 (augmentation).
+3. Unified Dataset Variable Dictionary
+All variables below are stored in a single occupation-task-level file. Variables are grouped by analytical purpose. Occupation-level variables repeat across tasks within the same occupation; task-level variables may repeat across occupations sharing the same task. Tableau aggregation rules are provided later in this document.
+3.1 Identifiers and Task Metadata
+Variable
+Definition
+Analytical level
+task_id
+Task-level identifier.
+Task
+task_name
+Original task description.
+Task
+task_name_normalized
+Standardized or normalized task description used to align similar task wording.
+Task
+task_type
+O*NET task classification, such as Core or Supplemental.
+Task
+incumbents_responding
+Number of surveyed professionals who confirmed performing the task.
+Task
+date
+Month/year when the task information was last updated.
+Task
+domain_source
+Source of the task record, such as incumbent-reported information.
+Task
+num_jobs_sharing_task
+Number of occupations that include the task in the source data.
+Task
+task_observed_job_count
+Number of distinct soc_code values linked to the task in the cleaned analytical sample.
+Task helper
+task_row_flag
+Equals 1 for one designated row per task_id and 0 otherwise; useful for distinct task counts in Tableau.
+Helper
+
+3.2 Occupation Metadata
+Variable
+Definition
+Analytical level
+soc_code
+Standard occupation code and the occupation identifier.
+Occupation
+soc_major_group
+Broad SOC major occupational group.
+Occupation
+job_name
+Occupation title.
+Occupation
+job_family
+Broad occupational family or category.
+Occupation
+is_bright
+Original indicator for O*NET Bright Outlook occupations.
+Occupation
+is_green
+Original indicator for environmentally related Green occupations.
+Occupation
+is_bright_clean
+Boolean-cleaned Bright Outlook indicator.
+Occupation
+is_green_clean
+Boolean-cleaned Green occupation indicator.
+Occupation
+job_zone
+Required education, training, and experience level from 1 to 5.
+Occupation
+median_salary
+Median annual occupational wage in USD.
+Occupation
+job_forecast
+Projected ten-year occupational openings.
+Occupation
+chance_auto
+Original estimated automation probability; −1 indicates missing or unknown.
+Occupation
+chance_auto_clean
+Automation probability after converting −1 to missing.
+Occupation
+wage_group
+Original salary-group variable, which may contain missing values.
+Occupation
+salary_quartile
+Salary category constructed from median_salary: Q1 Lower, Q2 Lower-middle, Q3 Upper-middle, Q4 Higher.
+Occupation
+occupation_row_flag
+Equals 1 for one designated row per soc_code and 0 otherwise; useful for distinct occupation counts.
+Helper
+
+3.3 Original AI Exposure and Interaction Variables
+Variable
+Definition
+Analytical level
+task_percentage_all
+Percentage of all observed AI conversations associated with the task overall. This is a task-level exposure measure.
+Task
+task_percentage_job
+Percentage of all observed AI conversations attributed to the occupation-task pair. Summing this measure across tasks within an occupation gives occupation AI exposure.
+Occupation-task
+feedback_loop
+Automation ratio: AI completes a task through feedback and corrections.
+Occupation-task
+directive
+Automation ratio: AI receives a task and performs it directly.
+Occupation-task
+task_iteration
+Augmentation ratio: the user and AI iteratively improve the result.
+Occupation-task
+validation
+Augmentation ratio: AI checks, reviews, or validates the user’s work.
+Occupation-task
+learning
+Augmentation ratio: AI explains, teaches, or helps the user develop skills.
+Occupation-task
+filtered
+Share classified as non-work or not occupationally relevant. Higher values indicate lower work-related classification quality.
+Occupation-task quality
+
+3.4 Constructed Occupation-Task Measures
+Variable
+Definition
+Analytical level
+task_automation_score
+directive + feedback_loop.
+Occupation-task
+task_augmentation_score
+task_iteration + validation + learning.
+Occupation-task
+task_interaction_score_total
+Sum of all five interaction-mode ratios.
+Occupation-task
+all_interactions_zero
+TRUE when all five interaction-mode variables are zero.
+Quality flag
+interaction_values_complete
+TRUE when interaction variables, filtered, and task_percentage_job are non-missing.
+Quality flag
+valid_q2_observation
+TRUE when interaction values are complete, filtered ≤ 0.5, task_percentage_job > 0, and the five interaction modes have a positive total.
+Quality flag
+task_automation_share
+Automation score divided by total interaction score for valid Q2 observations.
+Occupation-task
+task_augmentation_share
+Augmentation score divided by total interaction score for valid Q2 observations.
+Occupation-task
+task_ai_role_balance
+task_augmentation_share − task_automation_share; ranges from −1 to +1.
+Occupation-task
+task_automation_exposure_pct
+task_percentage_job × task_automation_share.
+Occupation-task
+task_augmentation_exposure_pct
+task_percentage_job × task_augmentation_share.
+Occupation-task
+q2_classified_exposure_pct
+task_percentage_job for valid Q2 observations and 0 otherwise.
+Occupation-task
+feedback_loop_share
+feedback_loop divided by task_interaction_score_total.
+Occupation-task
+directive_share
+directive divided by task_interaction_score_total.
+Occupation-task
+task_iteration_share
+task_iteration divided by task_interaction_score_total.
+Occupation-task
+validation_share
+validation divided by task_interaction_score_total.
+Occupation-task
+learning_share
+learning divided by task_interaction_score_total.
+Occupation-task
+feedback_loop_exposure_pct
+task_percentage_job × feedback_loop_share.
+Occupation-task
+directive_exposure_pct
+task_percentage_job × directive_share.
+Occupation-task
+task_iteration_exposure_pct
+task_percentage_job × task_iteration_share.
+Occupation-task
+validation_exposure_pct
+task_percentage_job × validation_share.
+Occupation-task
+learning_exposure_pct
+task_percentage_job × learning_share.
+Occupation-task
+
+3.5 Constructed Occupation-Level Measures
+Variable
+Definition
+Analytical level
+occupation_ai_exposure_pct
+Sum of task_percentage_job across all tasks belonging to the occupation.
+Occupation
+occupation_total_task_count
+Number of distinct task_id values associated with the occupation.
+Occupation
+occupation_valid_q2_task_count
+Number of occupation-task rows that satisfy valid_q2_observation.
+Occupation
+occupation_classified_exposure_pct
+Sum of q2_classified_exposure_pct within the occupation.
+Occupation
+occupation_automation_exposure_pct
+Sum of task_automation_exposure_pct within the occupation.
+Occupation
+occupation_augmentation_exposure_pct
+Sum of task_augmentation_exposure_pct within the occupation.
+Occupation
+occupation_orientation_denominator
+Occupation automation exposure plus occupation augmentation exposure.
+Occupation
+occupation_automation_orientation
+Occupation automation exposure divided by the orientation denominator.
+Occupation
+occupation_augmentation_orientation
+Occupation augmentation exposure divided by the orientation denominator.
+Occupation
+occupation_ai_role_balance
+Occupation augmentation orientation minus occupation automation orientation.
+Occupation
+occupation_classification_coverage
+Occupation classified exposure divided by total occupation AI exposure.
+Occupation quality
+occupation_feedback_loop_exposure_pct
+Sum of feedback-loop exposure within the occupation.
+Occupation
+occupation_directive_exposure_pct
+Sum of directive exposure within the occupation.
+Occupation
+occupation_task_iteration_exposure_pct
+Sum of task-iteration exposure within the occupation.
+Occupation
+occupation_validation_exposure_pct
+Sum of validation exposure within the occupation.
+Occupation
+occupation_learning_exposure_pct
+Sum of learning exposure within the occupation.
+Occupation
+occupation_feedback_loop_share
+Feedback-loop exposure divided by classified occupation exposure.
+Occupation
+occupation_directive_share
+Directive exposure divided by classified occupation exposure.
+Occupation
+occupation_task_iteration_share
+Task-iteration exposure divided by classified occupation exposure.
+Occupation
+occupation_validation_share
+Validation exposure divided by classified occupation exposure.
+Occupation
+occupation_learning_share
+Learning exposure divided by classified occupation exposure.
+Occupation
+
+4. Main Questions and Sub-Questions
+All questions below use the same file, analysis_dataset.csv. The difference is the analytical level and the aggregation rule, not the data source.
+Question 1: Where is generative AI being used?
+Sub-question
+Analysis level
+Variables
+Analysis
+1.1 Which occupations account for the largest shares of observed workplace AI conversations?
+Occupation
+job_name, soc_code, occupation_ai_exposure_pct, occupation_total_task_count
+Rank occupations by occupation_ai_exposure_pct. Use one mark per soc_code.
+1.2 Which workplace tasks account for the largest shares of overall AI use?
+Task
+task_id, task_name, task_percentage_all, task_type
+Rank distinct tasks. Do not sum repeated task_percentage_all values across occupations.
+1.3 Is AI use concentrated in a small number of occupations and tasks?
+Occupation and task
+occupation_ai_exposure_pct; task_percentage_all; occupation_row_flag; task_row_flag
+Calculate Top 5, Top 10, and Top 20 cumulative exposure shares separately for occupations and tasks.
+1.4 What types of tasks are most exposed to AI?
+Task
+task_type, task_percentage_all, num_jobs_sharing_task, task_observed_job_count, incumbents_responding
+Compare Core versus Supplemental tasks and generic versus occupation-specific tasks.
+
+Question 2: Is AI doing the work or helping the worker?
+Sub-question
+Analysis level
+Variables
+Analysis
+2.1 Across all observed workplace AI use, what is the overall balance between automation and augmentation?
+Occupation-task
+task_automation_exposure_pct, task_augmentation_exposure_pct, q2_classified_exposure_pct
+Sum row-level exposure components across valid Q2 observations; report overall automation and augmentation shares.
+2.2 Which occupations are most automation-oriented and which are most augmentation-oriented?
+Occupation
+job_name, occupation_automation_orientation, occupation_augmentation_orientation, occupation_ai_role_balance, occupation_ai_exposure_pct, occupation_valid_q2_task_count, occupation_classification_coverage
+Rank occupations only after applying minimum exposure, task-count, and coverage thresholds.
+2.3 Which specific interaction modes drive automation and augmentation?
+Occupation or job family
+occupation_directive_share, occupation_feedback_loop_share, occupation_task_iteration_share, occupation_validation_share, occupation_learning_share, job_family
+Use a five-part profile or heatmap to show the composition of AI interaction modes.
+2.4 Does the same occupation use AI differently across its individual tasks?
+Occupation-task
+job_name, task_name, task_type, task_percentage_job, task_automation_share, task_augmentation_share, task_ai_role_balance
+Drill down within an occupation and compare task-level roles, especially Core versus Supplemental tasks.
+
+Question 3: For whom is AI a worker, and for whom is it a copilot?
+Sub-question
+Analysis level
+Variables
+Analysis
+3.1 How do AI exposure and interaction orientation differ across Job Zones?
+Occupation
+job_zone, occupation_ai_exposure_pct, occupation_automation_orientation, occupation_augmentation_orientation, occupation_ai_role_balance
+Compare distributions across Job Zones 1–5 using one observation per occupation.
+3.2 Does the automation-augmentation balance differ across salary groups?
+Occupation
+salary_quartile, median_salary, occupation_automation_orientation, occupation_augmentation_orientation, occupation_ai_role_balance
+Compare the four salary quartiles and avoid using missing wage_group observations as the main classification.
+3.3 How do Job Zone and salary jointly relate to AI interaction patterns?
+Occupation
+job_zone, salary_quartile, occupation_ai_role_balance, occupation_augmentation_orientation
+Create a Job Zone × salary-quartile matrix or heatmap.
+3.4 Does observed generative-AI use align with existing estimates of occupational automation risk?
+Occupation
+chance_auto_clean, occupation_automation_orientation, occupation_ai_role_balance, occupation_ai_exposure_pct
+Compare external automation estimates with observed interaction orientation; treat them as distinct concepts.
+
+5. Tableau Rules for Using One Dataset
+Because the dataset is stored at the occupation-task level, some task-level and occupation-level fields repeat across rows. Correct aggregation is therefore essential.
+Chart type
+Rule
+Example
+Occupation-level ranking or scatterplots
+Place soc_code on Detail. Use MIN or AVG of precomputed occupation-level variables, not SUM.
+MIN([occupation_ai_exposure_pct])
+Occupation-level boxplots by Job Zone
+Each mark must represent one occupation. Put soc_code on Detail and use MIN/AVG of occupation-level measures.
+MIN([occupation_ai_exposure_pct])
+Task-level ranking
+Place task_id on Detail. Use MIN or AVG of task_percentage_all because it repeats across occupations sharing the task.
+MIN([task_percentage_all])
+Overall automation versus augmentation
+Use row-level exposure components and sum them across valid Q2 observations.
+SUM([task_automation_exposure_pct]) / SUM([q2_classified_exposure_pct])
+Five-part interaction profile
+Sum each interaction exposure and divide by classified exposure at the chosen grouping level.
+SUM([directive_exposure_pct]) / SUM([q2_classified_exposure_pct])
+Counts of occupations or tasks
+Use COUNTD on identifiers or SUM of the helper row flags.
+COUNTD([soc_code]); COUNTD([task_id])
+Job-family averages
+Choose whether each occupation should receive equal weight or exposure weight. State the choice in the chart subtitle.
+Equal occupation weight: AVG of one value per soc_code; exposure weight: sum exposure components.
+6. Recommended Tableau LOD Fields
+Calculated field
+Tableau formula
+Occupation Exposure LOD
+{ FIXED [soc_code] : MIN([occupation_ai_exposure_pct]) }
+Occupation Automation Orientation LOD
+{ FIXED [soc_code] : MIN([occupation_automation_orientation]) }
+Occupation Augmentation Orientation LOD
+{ FIXED [soc_code] : MIN([occupation_augmentation_orientation]) }
+Task Exposure LOD
+{ FIXED [task_id] : MIN([task_percentage_all]) }
+Valid Occupation Count
+COUNTD(IF [occupation_classification_coverage] >= 0.5 THEN [soc_code] END)
+7. Final Recommendation
+Use analysis_dataset.csv as the only data source in Tableau.
+Keep the grain at one unique occupation-task pair.
+Use occupation-level precomputed variables for occupation questions, but aggregate them with MIN/AVG and one mark per soc_code.
+Use task_percentage_all for task questions, but aggregate with MIN/AVG and one mark per task_id.
+Use row-level exposure components for overall automation, augmentation, and five-part interaction profiles.
+Always display exposure, valid task count, and classification coverage beside orientation rankings to avoid overinterpreting small or weakly classified occupations.
